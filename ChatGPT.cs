@@ -19,7 +19,7 @@ namespace ChatGPTCS
 {
     public partial class BugsBuddy : Form
     {
-        string OPENAI_API_KEY = "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"; // https://beta.openai.com/account/api-keys
+        string OPENAI_API_KEY = ""; // https://beta.openai.com/account/api-keys
         SpeechRecognitionEngine oSpeechRecognitionEngine = null;
         System.Speech.Synthesis.SpeechSynthesizer oSpeechSynthesizer = null;
 
